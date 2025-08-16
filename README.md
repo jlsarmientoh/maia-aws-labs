@@ -5,3 +5,4 @@ Archivos y recursos para para ejecutar los laboratorios de la asignatura de MLOp
 
 - Despliegue de tablero en nube
 - Repositorio Git
+- Versionamiento de datos con DVC
