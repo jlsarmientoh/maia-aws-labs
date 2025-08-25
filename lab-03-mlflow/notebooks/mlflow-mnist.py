@@ -70,11 +70,11 @@ def run_mlflow(run_name="MLflow CE MNIST"):
         # agregamos dropout como método de regularización para aleatoriamente descartar una capa
         # si los gradientes son muy pequeños
         model.add(layers.Dropout(args.dropout))
-        # capa final con 10 nodos de salida y activación softmax 
-        model.add(layers.Dense(10, activation=tf.nn.softmax))
-        # Use Scholastic Gradient Descent (SGD) or Adadelta
-        # https://keras.io/optimizers/
-        optimizer = get_optimizer()
+    # capa final con 10 nodos de salida y activación softmax 
+    model.add(layers.Dense(10, activation=tf.nn.softmax))
+    # Use Scholastic Gradient Descent (SGD) or Adadelta
+    # https://keras.io/optimizers/
+    optimizer = get_optimizer()
 
     # compilamos el modelo y definimos la función de pérdida  
     # otras funciones de pérdida comunes para problemas de clasificación
