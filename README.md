@@ -3,7 +3,8 @@ Archivos y recursos para ejecutar los laboratorios de la asignatura de MLOps
 
 ## Talleres
 
-- Despliegue de tablero en nube
+- [Despliegue de tablero en nube](./lab-dashboard/)
 - Repositorio Git
-- Versionamiento de datos con DVC
-- MLFlow
+- [Versionamiento de datos con DVC](./lab-dvc/)
+- [MLFlow](./lab-mlflow/)
+- [Empaquetamiento](./lab-empaquetamiento/)
