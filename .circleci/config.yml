@@ -30,8 +30,7 @@ jobs:
           command: |
             pwd
             cd lab-ci-cd/bankchurn-api
-            railway up --service=empathetic-consideration
-            railway up --detach
+            railway up --service=empathetic-consideration --detach
 
 
 tags_only: &tags_only
