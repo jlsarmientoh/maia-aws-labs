@@ -8,3 +8,4 @@ Archivos y recursos para ejecutar los laboratorios de la asignatura de MLOps
 - [Versionamiento de datos con DVC](./lab-dvc/)
 - [MLFlow](./lab-mlflow/)
 - [Empaquetamiento](./lab-empaquetamiento/)
+- [CI-CD](./lab-ci-cd/)
