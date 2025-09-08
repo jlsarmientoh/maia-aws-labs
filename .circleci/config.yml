@@ -20,7 +20,7 @@ jobs:
     <<: *defaults
     steps:
       - checkout:
-          path: ~/project/lab-ci-cd
+          path: ~/project
       - node/install:
           node-version: '20.9'
       - run: node --version
@@ -28,7 +28,8 @@ jobs:
       - run:
           name: Deploy to Railway App
           command: |
-            cd bankchurn-api 
+            pwd
+            cd lab-ci-cd/bankchurn-api
             railway up --service=empathetic-consideration
             railway up --detach
 
