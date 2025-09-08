@@ -20,7 +20,7 @@ jobs:
     <<: *defaults
     steps:
       - checkout:
-          path: ~/project/
+          path: ~/project/lab-ci-cd
       - node/install:
           node-version: '20.9'
       - run: node --version
