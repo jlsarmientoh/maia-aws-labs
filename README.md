@@ -10,3 +10,4 @@ Archivos y recursos para ejecutar los laboratorios de la asignatura de MLOps
 - [Empaquetamiento](./lab-empaquetamiento/)
 - [CI-CD](./lab-ci-cd/)
 - [Docker & Railway](./lab-docker-railway/)
+- [Docker & ECS](./lab-docker-ecs/)
