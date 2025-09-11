@@ -29,7 +29,7 @@ jobs:
           name: Deploy to Railway App
           command: |
             pwd
-            cd lab-docker-railway/bankchurn-api
+            cd lab-docker-railway
             railway up --service=empathetic-consideration --detach
 
 
